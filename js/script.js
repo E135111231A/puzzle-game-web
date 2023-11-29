@@ -43,7 +43,7 @@ class PuzzleGame {
       this.board[tileIndex] = null;
       this.renderBoard();
       if (this.isSolved()) {
-        alert('Congratulations! You solved the puzzle.');
+        alert('Selamat!! kamu berhasill :D');
       }
     } else {
       console.log('Invalid move!');
