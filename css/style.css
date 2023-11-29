@@ -5,8 +5,22 @@ body {
 
 header {
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 1px;
   color: #FFFFFF;
+  background-color: #3853ca; /* Warna latar belakang */
+  padding: 1px; /* Ruang di dalam header */
+}
+main {
+  flex: 1; /* Menggunakan sisa ruang kosong yang ada */
+  padding: 20px;
+}
+
+footer {
+  background-color: #333; /* Warna latar belakang */
+  color: #fff; /* Warna teks */
+  padding: 1px; /* Ruang di dalam footer */
+  text-align: center; /* Posisi teks menjadi tengah */
+  margin-top: auto; /* Footer menempel di bawah konten, di bagian bawah viewport jika konten tidak mencapai tinggi layar */
 }
 
 /* Style untuk kotak puzzle */
