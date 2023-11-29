@@ -67,5 +67,7 @@ class PuzzleGame {
   }
 }
 
-// Inisialisasi game dengan ukuran 3x3
-const game = new PuzzleGame(3);
+// Inisialisasi game dengan ukuran 3x3 setelah DOM selesai dimuat
+document.addEventListener('DOMContentLoaded', () => {
+  const game = new PuzzleGame(3);
+});
