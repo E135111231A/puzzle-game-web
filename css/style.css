@@ -60,3 +60,9 @@ footer {
 .tile:hover {
   background-color: #145b7b;
 }
+
+.puzzle-text {
+  text-align: center; /* Pusatkan teks */
+  margin-top: 400px; /* Sesuaikan jarak atas teks dari kotak puzzle */
+  color: #FFFFFF; /* Warna teks */
+}
