@@ -20,7 +20,7 @@ footer {
   color: #fff; /* Warna teks */
   padding: 10px; /* Ruang di dalam footer */
   text-align: center; /* Posisi teks menjadi tengah */
-  margin-top: auto; /* Footer menempel di bawah konten, di bagian bawah viewport jika konten tidak mencapai tinggi layar */
+  margin-top: center; /* Footer menempel di bawah konten, di bagian bawah viewport jika konten tidak mencapai tinggi layar */
 }
 
 /* Style untuk kotak puzzle */
