@@ -1,4 +1,3 @@
-// Code yang ditempatkan di dalam script.js
 const PuzzleGame = (function() {
   let size;
   let board = [];
@@ -70,12 +69,12 @@ const PuzzleGame = (function() {
       return true;
     }
 
-    // Getter untuk mendapatkan nilai size
+    // Getter mendapatkan nilai size
     static getSize() {
       return size;
     }
 
-    // Getter untuk mendapatkan nilai board
+    // Getter mendapatkan nilai board
     static getBoard() {
       return board;
     }
@@ -90,7 +89,7 @@ class PuzzleGame2 extends PuzzleGame {
   }
 }
 
-// Inisialisasi game dengan ukuran 3x3 setelah DOM selesai dimuat
+// memuat game dengan ukuran 3x3
 document.addEventListener('DOMContentLoaded', () => {
   const game = new PuzzleGame(3);
 });
