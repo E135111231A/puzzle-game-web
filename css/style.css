@@ -1,35 +1,45 @@
 body {
   font-family: 'Oswald', sans-serif;
   background-color: #001018;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  position: relative; /* Menjadikan body sebagai posisi relatif */
 }
 
 header {
   text-align: center;
   margin-bottom: 1px;
   color: #FFFFFF;
-  background-color: #3853ca; /* Warna latar belakang */
-  padding: 1px; /* Ruang di dalam header */
+  background-color: #3853ca;
+  padding: 10px;
 }
+
 main {
-  flex: 1; /* Menggunakan sisa ruang kosong yang ada */
+  flex: 1;
   padding: 20px;
+  text-align: center;
+  color: #FFFFFF;
 }
 
 footer {
-  background-color: #333; /* Warna latar belakang */
-  color: #fff; /* Warna teks */
-  padding: 10px; /* Ruang di dalam footer */
-  text-align: center; /* Posisi teks menjadi tengah */
-  margin-top: center; /* Footer menempel di bawah konten, di bagian bawah viewport jika konten tidak mencapai tinggi layar */
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
 }
 
-/* Style untuk kotak puzzle */
 .puzzle {
+  position: absolute; /* Menjadikan posisi absolut */
+  top: 50%; /* Menempatkan elemen di bagian tengah vertikal */
+  left: 50%; /* Menempatkan elemen di bagian tengah horizontal */
+  transform: translate(-50%, -50%); /* Untuk menggeser posisi agar titik tengah elemen berada di tengah layar */
   display: grid;
   grid-template-columns: repeat(3, 100px);
   grid-template-rows: repeat(3, 100px);
   gap: 5px;
-  width: 320px; /* Sesuaikan lebar sesuai kebutuhan */
+  width: 320px;
   margin: 0 auto;
 }
 
