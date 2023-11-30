@@ -18,7 +18,8 @@ main {
 footer {
   background-color: #333; /* Warna latar belakang */
   color: #fff; /* Warna teks */
-  padding: 1px; /* Ruang di dalam footer */
+  padding: 10px; /* Ruang di dalam footer */
+  text-align: center; /* Posisi teks menjadi tengah */
   margin-top: auto; /* Footer menempel di bawah konten, di bagian bawah viewport jika konten tidak mencapai tinggi layar */
 }
 
