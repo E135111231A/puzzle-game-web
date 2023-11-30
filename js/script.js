@@ -84,6 +84,12 @@ const PuzzleGame = (function() {
   return PuzzleGame;
 })();
 
+class PuzzleGameExtended extends PuzzleGame {
+  constructor(gameSize) {
+    super(gameSize);
+  }
+}
+
 // Inisialisasi game dengan ukuran 3x3 setelah DOM selesai dimuat
 document.addEventListener('DOMContentLoaded', () => {
   const game = new PuzzleGame(3);
