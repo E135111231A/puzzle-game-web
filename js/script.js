@@ -84,7 +84,7 @@ const PuzzleGame = (function() {
   return PuzzleGame;
 })();
 
-class PuzzleGameExtended extends PuzzleGame {
+class PuzzleGame2 extends PuzzleGame {
   constructor(gameSize) {
     super(gameSize);
   }
